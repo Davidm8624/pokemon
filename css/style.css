@@ -1,7 +1,69 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+
 nav ul {
   background-color: blanchedalmond;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  width: 100%;
+  height: 100%;
+  border-right: black 2px solid;
+  border-left: black 2px solid;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+nav ul li a {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+nav ul li a:link {
+  color: black;
+}
+
+nav ul li a:visited {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
