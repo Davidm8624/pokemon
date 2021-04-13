@@ -66,4 +66,20 @@ nav ul li a:visited {
 nav ul li a:hover {
   color: red;
 }
+
+.intro {
+  text-align: center;
+  background-color: darkseagreen;
+  height: 25vh;
+  width: 60vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+img {
+  height: 500px;
+  width: auto;
+  margin-left: 60vw;
+}
 /*# sourceMappingURL=style.css.map */
