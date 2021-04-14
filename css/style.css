@@ -6,7 +6,7 @@
 }
 
 nav ul {
-  background-color: blanchedalmond;
+  background-color: #dd4848;
   font-family: Georgia, "Times New Roman", Times, serif;
   list-style-type: none;
   display: -webkit-box;
@@ -64,7 +64,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  color: red;
+  color: #f5b24d;
 }
 
 .intro {
