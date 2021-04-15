@@ -96,8 +96,10 @@ function createStuff(obj) {
   const _p5 = document.createElement("p")
   const _p6 = document.createElement("p")
 
+  const height = obj["height"]
+
   _p5.textContent = "Height"
-  _p6.textContent = obj["height"]
+  _p6.textContent = `${height}m`
   _heightVal.setAttribute("class", "statVal")
 
   _height.appendChild(_p5)
