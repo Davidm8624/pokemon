@@ -10,6 +10,7 @@
     "base_experience": 62,
     "height": 6,
     "id": 4,
+    "image": "image/mander.png",
     "is_default": true,
     "name": "charmander",
     "order": 5,

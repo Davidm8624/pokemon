@@ -10,6 +10,7 @@
     "base_experience": 142,
     "height": 11,
     "id": 5,
+    "image": "image/meleon.png",
     "is_default": true,
     "name": "charmeleon",
     "order": 6,

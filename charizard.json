@@ -10,6 +10,7 @@
     "base_experience": 240,
     "height": 17,
     "id": 6,
+    "image": "image/Zard.png",
     "is_default": true,
     "name": "charizard",
     "order": 7,

@@ -5,6 +5,14 @@
     margin: 0;
 }
 
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 nav {
     ul {
         background-color: blanchedalmond;
@@ -45,4 +53,133 @@ nav {
 			}
 		}
     }
+}
+li{
+  list-style-type: none;
+}
+
+
+
+section{
+  background-color: oldlace;
+  width: 30vw;
+  height:  80vh;
+  border-radius: 3vw;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+
+  .type {
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+  }
+
+  .normal {
+    background-color: #A8A878;
+  }
+  .fire {
+    background-color: #F27830;
+  }
+  .fighting {
+    background-color: #C03028;
+  }
+  .water {
+    background-color: #6890F0;
+  }
+  .flying { 
+    background-color: #A890F0;
+  }
+  .poison {
+    background-color: #A040A0;
+  }
+  .electric {
+    background-color: #F9D546;
+  }
+  .ground {
+    background-color: #E0C068;
+  }
+  .psychic {
+    background-color: #F25790;
+  }
+  .rock {
+    background-color: #B8A038;
+  }
+  .ice {
+    background-color: #98D8D8;
+  }
+  .bug {
+    background-color: #A8B820;
+  }
+  .dragon {
+    background-color: #7038F8;
+  }
+  .ghost { 
+    background-color: #705898;
+  }
+  .dark {
+    background-color: #705848;
+  }
+  .steel { 
+    background-color: #B8B8D0;
+  }
+  .fairy {
+    background-color: #EE99AC;
+  }
+  h1{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2rem ;
+  }
+
+  img{
+    width: 40%;
+    background-color: rgb(185, 216, 255);
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 4%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  div{
+    align-self: flex-start;
+    width: 100%;
+    margin: 0;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    div {
+      width: 45%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: left;
+      // border: 2px solid black;
+      div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 80%;
+        border-bottom: 3px black solid;
+        div{
+          border: none;
+        }
+        .statVal {
+          width: auto;
+          justify-content: flex-end;
+        }
+      }
+    }
+    
+  }
+
 }
