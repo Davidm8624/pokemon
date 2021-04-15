@@ -5,17 +5,11 @@
     margin: 0;
 }
 
-html{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
+
 
 nav {
     ul {
-        background-color: blanchedalmond;
+        background-color: rgb(221, 72, 72);
         font-family: Georgia, "Times New Roman", Times, serif;
         list-style-type: none;
         display: flex;
@@ -24,6 +18,9 @@ nav {
         justify-content: space-evenly;
         height: 3rem;
         align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
         // border: black 3px solid;
 		li {
 			width: 100%;
@@ -49,7 +46,7 @@ nav {
 				color: black;
 			}
 			a:hover {
-				color: red;
+				color: rgb(245, 178, 77);
 			}
 		}
     }
@@ -59,8 +56,17 @@ li{
 }
 
 
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 
 section{
+  margin-top: 20px;
   background-color: oldlace;
   width: 30vw;
   height:  80vh;
@@ -181,5 +187,18 @@ section{
     }
     
   }
-
 }
+
+
+.intro{
+	text-align: center;
+	background-color: darkseagreen;
+	height: 25vh;
+	width: 60vh;
+	// margin: 0vh;;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	margin-top: 2%;
+	// margin-bottom: 4%;
+}
+

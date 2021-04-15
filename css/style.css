@@ -5,22 +5,8 @@
   margin: 0;
 }
 
-html {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
 nav ul {
-  background-color: blanchedalmond;
+  background-color: #dd4848;
   font-family: Georgia, "Times New Roman", Times, serif;
   list-style-type: none;
   display: -webkit-box;
@@ -38,6 +24,9 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 nav ul li {
@@ -78,14 +67,29 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  color: red;
+  color: #f5b24d;
 }
 
 li {
   list-style-type: none;
 }
 
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 section {
+  margin-top: 20px;
   background-color: oldlace;
   width: 30vw;
   height: 80vh;
@@ -256,5 +260,15 @@ section div div div .statVal {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.intro {
+  text-align: center;
+  background-color: darkseagreen;
+  height: 25vh;
+  width: 60vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 2%;
 }
 /*# sourceMappingURL=style.css.map */
