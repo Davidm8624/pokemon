@@ -1,26 +1,29 @@
 *,
 ::after,
 ::before {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4439c2d6985616c149b76fa867be21784ff50ade
 nav {
-    ul {
-        background-color: rgb(221, 72, 72);
-        font-family: Georgia, "Times New Roman", Times, serif;
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-        height: 3rem;
-        align-items: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        // border: black 3px solid;
+	ul {
+		background-color: rgb(221, 72, 72);
+		font-family: Georgia, "Times New Roman", Times, serif;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-evenly;
+		height: 3rem;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		// border: black 3px solid;
 		li {
 			width: 100%;
 			height: 100%;
@@ -28,7 +31,7 @@ nav {
 			border-left: black 2px solid;
 			border-top: black 3px solid;
 			border-bottom: black 3px solid;
-			
+
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -48,156 +51,180 @@ nav {
 				color: rgb(245, 178, 77);
 			}
 		}
-    }
+	}
 }
-li{
-  list-style-type: none;
-}
-
-
-html{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+li {
+	list-style-type: none;
 }
 
-
-section{
-  margin-top: 20px;
-  background-color: oldlace;
-  width: 30vw;
-  height:  80vh;
-  border-radius: 3vw;
-  border: 3px solid black;
-  display: flex;
-  flex-direction: column;
-
-  .type {
-    width: 100px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    border: 2px solid black;
-    margin-bottom: 20px;
-  }
-
-  .normal {
-    background-color: #A8A878;
-  }
-  .fire {
-    background-color: #F27830;
-  }
-  .fighting {
-    background-color: #C03028;
-  }
-  .water {
-    background-color: #6890F0;
-  }
-  .flying { 
-    background-color: #A890F0;
-  }
-  .poison {
-    background-color: #A040A0;
-  }
-  .electric {
-    background-color: #F9D546;
-  }
-  .ground {
-    background-color: #E0C068;
-  }
-  .psychic {
-    background-color: #F25790;
-  }
-  .rock {
-    background-color: #B8A038;
-  }
-  .ice {
-    background-color: #98D8D8;
-  }
-  .bug {
-    background-color: #A8B820;
-  }
-  .dragon {
-    background-color: #7038F8;
-  }
-  .ghost { 
-    background-color: #705898;
-  }
-  .dark {
-    background-color: #705848;
-  }
-  .steel { 
-    background-color: #B8B8D0;
-  }
-  .fairy {
-    background-color: #EE99AC;
-  }
-  h1{
-    text-align: center;
-    margin: 10px 0;
-    font-size: 2rem ;
-  }
-
-  img{
-    width: 40%;
-    background-color: rgb(185, 216, 255);
-    border-radius: 10px;
-    border: 3px solid black;
-    padding: 4%;
-    align-self: center;
-    margin-bottom: 10px;
-  }
-
-  h2{
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  div{
-    align-self: flex-start;
-    width: 100%;
-    margin: 0;
-    margin-left: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    div {
-      width: 45%;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: left;
-      // border: 2px solid black;
-      div{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 80%;
-        border-bottom: 3px black solid;
-        div{
-          border: none;
-        }
-        .statVal {
-          width: auto;
-          justify-content: flex-end;
-        }
-      }
-    }
-    
-  }
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
 }
 
+section {
+	margin-top: 20px;
+	background-color: oldlace;
+	width: 30vw;
+	height: 80vh;
+	border-radius: 3vw;
+	border: 3px solid black;
+	display: flex;
+	flex-direction: column;
 
-.intro{
-	text-align: center;
-	background-color: darkseagreen;
-	height: 25vh;
-	width: 60vh;
-	// margin: 0vh;;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 20px;
-	margin-top: 2%;
-	// margin-bottom: 4%;
+	.type {
+		width: 100px;
+		border-radius: 10px;
+		color: white;
+		text-align: center;
+		border: 2px solid black;
+		margin-bottom: 20px;
+	}
+
+	.normal {
+		background-color: #a8a878;
+	}
+	.fire {
+		background-color: #f27830;
+	}
+	.fighting {
+		background-color: #c03028;
+	}
+	.water {
+		background-color: #6890f0;
+	}
+	.flying {
+		background-color: #a890f0;
+	}
+	.poison {
+		background-color: #a040a0;
+	}
+	.electric {
+		background-color: #f9d546;
+	}
+	.ground {
+		background-color: #e0c068;
+	}
+	.psychic {
+		background-color: #f25790;
+	}
+	.rock {
+		background-color: #b8a038;
+	}
+	.ice {
+		background-color: #98d8d8;
+	}
+	.bug {
+		background-color: #a8b820;
+	}
+	.dragon {
+		background-color: #7038f8;
+	}
+	.ghost {
+		background-color: #705898;
+	}
+	.dark {
+		background-color: #705848;
+	}
+	.steel {
+		background-color: #b8b8d0;
+	}
+	.fairy {
+		background-color: #ee99ac;
+	}
+	h1 {
+		text-align: center;
+		margin: 10px 0;
+		font-size: 2rem;
+	}
+
+	img {
+		width: 40%;
+		background-color: rgb(185, 216, 255);
+		border-radius: 10px;
+		border: 3px solid black;
+		padding: 4%;
+		align-self: center;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	div {
+		align-self: flex-start;
+		width: 100%;
+		margin: 0;
+		margin-left: 5px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		div {
+			width: 45%;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: left;
+			// border: 2px solid black;
+			div {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				width: 80%;
+				border-bottom: 3px black solid;
+				div {
+					border: none;
+				}
+				.statVal {
+					width: auto;
+					justify-content: flex-end;
+				}
+			}
+		}
+	}
+}
+
+// .intro {
+// 	text-align: center;
+// 	background-color: darkseagreen;
+// 	height: 25vh;
+// 	width: 60vh;
+// 	// margin: 0vh;;
+// 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+// 	font-size: 20px;
+// 	margin-top: 2%;
+// 	// margin-bottom: 4%;
+// }
+
+main {
+	margin-top: 250px;
+	height: 10px;
+	display: flex;
+	// cursor:url(https://pngimg.com/uploads/pokeball/pokeball_PNG24.png), pointer;
+}
+
+.selMander img{
+	width: 230px;
+}
+
+.selMeleon img{
+	width: 215px;
+}
+.selIzard img{
+	width: 260px;
+}
+
+.btn{
+	block-size: 20;
+	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: rgb(221, 72, 72);
+	width: 100px;
+	top: 50%;
+	left: 50%;
 }
 

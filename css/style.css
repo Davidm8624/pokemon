@@ -114,55 +114,55 @@ section .type {
 }
 
 section .normal {
-  background-color: #A8A878;
+  background-color: #a8a878;
 }
 
 section .fire {
-  background-color: #F27830;
+  background-color: #f27830;
 }
 
 section .fighting {
-  background-color: #C03028;
+  background-color: #c03028;
 }
 
 section .water {
-  background-color: #6890F0;
+  background-color: #6890f0;
 }
 
 section .flying {
-  background-color: #A890F0;
+  background-color: #a890f0;
 }
 
 section .poison {
-  background-color: #A040A0;
+  background-color: #a040a0;
 }
 
 section .electric {
-  background-color: #F9D546;
+  background-color: #f9d546;
 }
 
 section .ground {
-  background-color: #E0C068;
+  background-color: #e0c068;
 }
 
 section .psychic {
-  background-color: #F25790;
+  background-color: #f25790;
 }
 
 section .rock {
-  background-color: #B8A038;
+  background-color: #b8a038;
 }
 
 section .ice {
-  background-color: #98D8D8;
+  background-color: #98d8d8;
 }
 
 section .bug {
-  background-color: #A8B820;
+  background-color: #a8b820;
 }
 
 section .dragon {
-  background-color: #7038F8;
+  background-color: #7038f8;
 }
 
 section .ghost {
@@ -174,11 +174,11 @@ section .dark {
 }
 
 section .steel {
-  background-color: #B8B8D0;
+  background-color: #b8b8d0;
 }
 
 section .fairy {
-  background-color: #EE99AC;
+  background-color: #ee99ac;
 }
 
 section h1 {
@@ -262,13 +262,33 @@ section div div div .statVal {
           justify-content: flex-end;
 }
 
-.intro {
-  text-align: center;
-  background-color: darkseagreen;
-  height: 25vh;
-  width: 60vh;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  margin-top: 2%;
+main {
+  margin-top: 250px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.selMander img {
+  width: 230px;
+}
+
+.selMeleon img {
+  width: 215px;
+}
+
+.selIzard img {
+  width: 260px;
+}
+
+.btn {
+  block-size: 20;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #dd4848;
+  width: 100px;
+  top: 50%;
+  left: 50%;
 }
 /*# sourceMappingURL=style.css.map */
