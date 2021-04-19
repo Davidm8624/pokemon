@@ -285,12 +285,11 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  cursor: url(image/pokeball.png), pointer;
 }
 
 .selMander img {
   width: 230px;
-  margin-top: -20px;
-  padding-bottom: 20px;
 }
 
 .selMeleon img {
@@ -300,6 +299,7 @@ main {
 .selIzard img {
   width: 260px;
 }
+<<<<<<< HEAD
 
 .btn {
   block-size: 20;
@@ -314,4 +314,6 @@ main {
   left: 50%;
   text-decoration: none;
 }
+=======
+>>>>>>> main
 /*# sourceMappingURL=style.css.map */
