@@ -34,4 +34,4 @@ This is a log of our project.
 
 4/19/21
 
-- Jaxson cleaned up some of the code and added a background color to the body. I got rid of the buttons and just made the image a button, Reid is currently working on making the image/links sized better and im writing the read me file.
+- Jaxson cleaned up some of the code and added a background color to the body. I got rid of the buttons and just made the image a button, Reid is currently working on making the image/links sized better and made the horizon texture. and im writing the read me file.
