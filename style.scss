@@ -75,7 +75,7 @@ html {
 
 section {
 	margin-top: 20px;
-	background-color: oldlace;
+	background-color: rgb(189, 90, 90);;
 	width: 30vw;
 	height: 80vh;
 	border-radius: 3vw;
@@ -215,26 +215,28 @@ main {
 	cursor:url(image/pokeball.png), pointer;
 }
 
-.selMander img{
+.selMander img {
 	width: 230px;
   margin-top: -20px;
   padding-bottom: 20px;
 }
 
-.selMeleon img{
+.selMeleon img {
 	width: 215px;
 }
-.selIzard img{
+.selIzard img {
 	width: 260px;
 }
 
+.btn {
+	block-size: 20;
+}
 .cardLinks{
 	color: white;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	background-color: rgb(221, 72, 72);
 	width: 100px;
 	top: 50%;
 	left: 50%;
 	text-decoration: none;
 }
-

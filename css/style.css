@@ -107,7 +107,7 @@ html {
 
 section {
   margin-top: 20px;
-  background-color: oldlace;
+  background-color: #bd5a5a;
   width: 30vw;
   height: 80vh;
   border-radius: 3vw;
@@ -303,11 +303,15 @@ main {
 
 .btn {
   block-size: 20;
+}
+
+.cardLinks {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: #dd4848;
   width: 100px;
   top: 50%;
   left: 50%;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

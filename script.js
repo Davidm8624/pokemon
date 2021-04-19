@@ -40,7 +40,7 @@ function createStuff(obj) {
   // Create the types of the pokemon
   const _typeContainer = document.createElement("div")
   _typeContainer.setAttribute("class", "typeContainer")
-  for (i of obj.types){
+  for (i of obj.types) {
     const _typeDiv = document.createElement("div")
     _typeDiv.setAttribute(`class`, `${i["type"]["name"]} type`)
     _typeDiv.textContent = i["type"]["name"].charAt(0).toUpperCase() + i["type"]["name"].slice(1);
