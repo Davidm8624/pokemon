@@ -212,7 +212,7 @@ main {
 	margin-top: 250px;
 	height: 10px;
 	display: flex;
-	// cursor:url(https://pngimg.com/uploads/pokeball/pokeball_PNG24.png), pointer;
+	cursor:url(image/pokeball.png), pointer;
 }
 
 .selMander img{
@@ -228,13 +228,13 @@ main {
 	width: 260px;
 }
 
-.btn{
-	block-size: 20;
+.cardLinks{
 	color: white;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	background-color: rgb(221, 72, 72);
 	width: 100px;
 	top: 50%;
 	left: 50%;
+	text-decoration: none;
 }
 
