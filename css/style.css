@@ -11,19 +11,6 @@
   background: linear-gradient(0deg, rgba(78, 129, 58, 0.981127) 0%, #73b858 14%, #6ecc3e 34%, #4dbb30 36%, #c0e6ff 37%, #bae8fd 73%, #59aec0 100%);
 }
 
-.sel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 nav ul {
   background-color: #f3841d;
   font-family: 'Times New Roman', serif;
@@ -290,30 +277,20 @@ main {
   cursor: url(image/pokeball.png), pointer;
 }
 
+.sel {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .selMander img {
-  width: 230px;
+  width: 380px;
 }
 
 .selMeleon img {
-  width: 240px;
+  width: 380px;
 }
 
 .selIzard img {
-  width: 300px;
-}
-
-.selIzard {
-  width: 310px;
-  height: 300px;
-}
-
-.selMeleon {
-  width: 300px;
-  height: 300px;
-}
-
-.selMander {
-  width: 280px;
-  height: 300px;
+  width: 480px;
 }
 /*# sourceMappingURL=style.css.map */

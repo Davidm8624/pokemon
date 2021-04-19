@@ -11,14 +11,8 @@
 
 }
 
-.sel{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-// .selMander{
-  
-// }
+
+
 nav {
 	ul {
     background-color: #f3841d;
@@ -218,26 +212,18 @@ main {
 	
 }
 
-.selMander img {
-	width: 230px;
+.sel {
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-.selMeleon img {
-	width: 240px;
+.selMander img{
+	width: 380px;
 }
-.selIzard img {
-	width: 300px;
+.selMeleon img{
+	width: 380px;
+}
+.selIzard img{
+	width: 480px;
 }
 
-.selIzard{
-	width: 310px;
-	height: 300px;
-}
-.selMeleon{
-	width: 300px;
-	height: 300px;
-}
-.selMander{
-	width: 280px;
-	height: 300px;
-}
