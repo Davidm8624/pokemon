@@ -1,5 +1,7 @@
 let currPokemon = window.location.pathname.split("/").pop().split(".").shift();
 
+// Finds what page you are on and pulls the information from the json file.
+
 fetch(`${currPokemon}.json`)
   .then((response) => response.json())
   .then((json) => init(json))
@@ -64,7 +66,6 @@ function createStuff(obj) {
     _div2.appendChild(_div3);
     _div2.appendChild(_div4);
     _leftContainer.appendChild(_div2)
-    section.appendChild(_leftContainer)
   }
 
   const _rightContainer = document.createElement("div") // Right container div
@@ -86,7 +87,6 @@ function createStuff(obj) {
   _div6.appendChild(_baseExp)
   _div6.appendChild(_baseExpVal)
   _rightContainer.appendChild(_div6)
-  section.appendChild(_rightContainer)
 
   // Height
   const _div7 = document.createElement("div")
@@ -99,7 +99,7 @@ function createStuff(obj) {
   const height = obj["height"]
 
   _p5.textContent = "Height"
-  _p6.textContent = `${height}m`
+  _p6.textContent = `${(height*0.1).toFixed(1)}m`
   _heightVal.setAttribute("class", "statVal")
 
   _height.appendChild(_p5)
@@ -107,7 +107,6 @@ function createStuff(obj) {
   _div7.appendChild(_height)
   _div7.appendChild(_heightVal)
   _rightContainer.appendChild(_div7)
-  section.appendChild(_rightContainer)
 
   // ID
   const _div8 = document.createElement("div")
@@ -126,7 +125,22 @@ function createStuff(obj) {
   _div8.appendChild(_id)
   _div8.appendChild(_idVal)
   _rightContainer.appendChild(_div8)
-  section.appendChild(_rightContainer)
+
+  // Weight
+  const _mainWeightDiv = document.createElement("div")
+  const _weightName = document.createElement("div")
+  const _weightValueDiv = document.createElement("div")
+  const _weightValueText = document.createElement("p")
+
+  _weightName.textContent = "Weight"
+  _weightValueText.textContent = (obj["weight"] * 0.1).toFixed(1) + "kg"
+  _weightValueDiv.setAttribute("class", "statVal")
+
+  _weightValueDiv.appendChild(_weightValueText)
+  _mainWeightDiv.appendChild(_weightName)
+  _mainWeightDiv.appendChild(_weightValueDiv)
+
+  _rightContainer.appendChild(_mainWeightDiv)
 
   // Abilities
   const _div9 = document.createElement("div")
@@ -140,11 +154,12 @@ function createStuff(obj) {
   }
   _div9.appendChild(_ul1)
   _rightContainer.appendChild(_div9)
-  section.append(_rightContainer)
+
 
   _mainContainer.appendChild(_leftContainer)
   _mainContainer.appendChild(_rightContainer)
   section.appendChild(_mainContainer)
+
 
 
 

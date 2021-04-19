@@ -5,14 +5,22 @@
 	margin: 0;
 }
 
-<<<<<<< HEAD
+.auto{
+background-color: #f2773083;
+}
 
-=======
->>>>>>> 4439c2d6985616c149b76fa867be21784ff50ade
+.sel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.selMander{
+  
+}
 nav {
 	ul {
-		background-color: rgb(221, 72, 72);
-		font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #f3481d9c;
+  	font-family: Georgia, "Times New Roman", Times, serif;
 		list-style-type: none;
 		display: flex;
 		flex-direction: row;
@@ -48,7 +56,7 @@ nav {
 				color: black;
 			}
 			a:hover {
-				color: rgb(245, 178, 77);
+				color: #755248
 			}
 		}
 	}
@@ -209,6 +217,8 @@ main {
 
 .selMander img{
 	width: 230px;
+  margin-top: -20px;
+  padding-bottom: 20px;
 }
 
 .selMeleon img{
