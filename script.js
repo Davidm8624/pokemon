@@ -1,16 +1,17 @@
 let currPokemon = window.location.pathname.split("/").pop().split(".").shift();
 
 // Finds what page you are on and pulls the information from the json file.
-
-fetch(`${currPokemon}.json`)
-  .then((response) => response.json())
-  .then((json) => init(json))
-  .catch((err) => console.log(err));
-
-function init(obj) {
-  console.log(obj);
-  console.log(obj.name);
-  createStuff(obj);
+if(currPokemon != "index"){
+  fetch(`${currPokemon}.json`)
+    .then((response) => response.json())
+    .then((json) => init(json))
+    .catch((err) => console.log(err));
+  
+  function init(obj) {
+    console.log(obj);
+    console.log(obj.name);
+    createStuff(obj);
+  }
 }
 
 function createStuff(obj) {
@@ -165,3 +166,26 @@ function createStuff(obj) {
 
 }
 
+// First time stuff
+
+let firstTime = document.getElementById("info")
+let firstTimeClose = document.getElementById("close")
+
+firstTimeClose.addEventListener("click", closeFirstTime)
+
+function closeFirstTime(){
+  firstTime.style.display = "none"
+}
+
+function checkFirstTime(){
+  firstTime.style.display = "none"
+  let firstTimeCheck = localStorage.getItem("firstTime")
+  
+  if(firstTimeCheck == undefined){
+    console.log(firstTimeCheck);
+    localStorage.setItem("firstTime", "false")
+    firstTime.style.display = "block"
+  }
+}
+
+checkFirstTime();

@@ -225,7 +225,7 @@ main {
   font-size: 2rem;
   border: 2px solid black;
   border-radius: 20px;
-
+  display: none;
   .close{
     text-align: center;
     width: 30px;
@@ -233,8 +233,16 @@ main {
     margin-left: 95.5%;
     font-size: 1.5rem;
     background: white;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
     border: 2px solid black;
     border-radius: 50%;
+  }
+  .close:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+    color: white;
+    transition: all 0.1s;
   }
 
 }
