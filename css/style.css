@@ -292,6 +292,7 @@ main {
   font-size: 2rem;
   border: 2px solid black;
   border-radius: 20px;
+  display: none;
 }
 
 .info .close {
@@ -340,5 +341,10 @@ footer {
   bottom: 0;
   text-align: center;
   border-top: 2px solid black;
+}
+
+#feet {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 /*# sourceMappingURL=style.css.map */
