@@ -35,3 +35,7 @@ This is a log of our project.
 4/19/21
 
 - Jaxson cleaned up some of the code and added a background color to the body. I got rid of the buttons and just made the image a button, Reid is currently working on making the image/links sized better and made the horizon texture. and im writing the read me file.
+
+4/20/21
+
+- Jaxson put the name of the artist who made the pictures inside the footer aswell as a welcome message thing. this time its a popup though instead of the boring way i did it last time
