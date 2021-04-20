@@ -344,7 +344,6 @@ footer {
 }
 
 #feet {
-  cursor: -webkit-grab;
-  cursor: grab;
+  cursor: default;
 }
 /*# sourceMappingURL=style.css.map */
